@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Login Page </title>
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
+
+    <body>
+        <center> <h1> Employee Portal Services </h1> </center>
+        <form id="target">
+            <div class="container">
+                <label>Username : </label>
+                <input type="text" placeholder="Enter Username" name="username" id="username" required>
+                <label>Password : </label>
+                <input type="password" placeholder="Enter Password" name="password" id="password" required>
+                <button type="submit" name="loginbtn">Login</button>
+                <input type="checkbox" checked="checked"> Remember me
+                <button type="button" class="cancelbtn"> Cancel</button>
+                Forgot <a href="#"> password? </a>
+                <div>
+                    <center> <h1 id="validating"></h1> </center>
+                </div>
+            </div>
+        </form>
+</body>
